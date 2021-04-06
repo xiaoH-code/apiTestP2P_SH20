@@ -1,0 +1,22 @@
+[
+  {
+    "title": "随机小数获取图片验证码成功",
+    "data_type": "float",
+    "status_code": 200
+  },
+  {
+    "title": "随机整数获取图片验证码成功",
+    "data_type": "int",
+    "status_code": 200
+  },
+  {
+    "title": "参数为空获取图片验证码失败",
+    "data_type": "kong",
+    "status_code": 404
+  },
+  {
+    "title": "随机字母获取图片验证码失败",
+    "data_type": "str",
+    "status_code": 400
+  }
+]

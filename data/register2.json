@@ -1,0 +1,86 @@
+[
+  {
+    "title": "输入必填项，注册成功",
+    "phone": "13122222727",
+    "password": "test123",
+    "verifycode": "8888",
+    "phone_code": "666666",
+    "dy_server": "on",
+    "invite_phone":"",
+    "status_code": 200,
+    "status": 200,
+    "desc": "注册成功"
+  },
+  {
+    "title": "输入所有参数项，注册成功",
+    "phone": "13122222728",
+    "password": "test123",
+    "verifycode": "8888",
+    "phone_code": "666666",
+    "dy_server": "on",
+    "invite_phone":"13012345678",
+    "status_code": 200,
+    "status": 200,
+    "desc": "注册成功"
+  },
+  {
+    "title": "输入手机号已存在，注册失败",
+    "phone": "13122222727",
+    "password": "test123",
+    "verifycode": "8888",
+    "phone_code": "666666",
+    "dy_server": "on",
+    "invite_phone":"",
+    "status_code": 200,
+    "status": 100,
+    "desc": "手机已存在!"
+  },
+  {
+    "title": "密码为空，注册失败",
+    "phone": "13122222729",
+    "password": "",
+    "verifycode": "8888",
+    "phone_code": "666666",
+    "dy_server": "on",
+    "invite_phone":"",
+    "status_code": 200,
+    "status": 100,
+    "desc": "密码不能为空"
+  },
+  {
+    "title": "图片验证码错误，注册失败",
+    "phone": "13122222730",
+    "password": "test123",
+    "verifycode": "1234",
+    "phone_code": "666666",
+    "dy_server": "on",
+    "invite_phone":"",
+    "status_code": 200,
+    "status": 100,
+    "desc": "验证码错误!"
+  },
+  {
+    "title": "短信验证码错误，注册失败",
+    "phone": "13122222730",
+    "password": "test123",
+    "verifycode": "8888",
+    "phone_code": "123456",
+    "dy_server": "on",
+    "invite_phone":"",
+    "status_code": 200,
+    "status": 100,
+    "desc": "验证码错误"
+  },
+  {
+    "title": "不同意注册协议，注册失败",
+    "phone": "13122222730",
+    "password": "test123",
+    "verifycode": "8888",
+    "phone_code": "666666",
+    "dy_server": "off",
+    "invite_phone":"",
+    "status_code": 200,
+    "status": 100,
+    "desc": "请同意我们的条款"
+  }
+]
